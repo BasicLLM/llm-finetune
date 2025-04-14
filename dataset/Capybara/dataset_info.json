@@ -1,0 +1,64 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "capybara",
+  "dataset_size": 72840299,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/trl-lib/Capybara@e235e846458bff3398a88aed812347f7f0756520/data/train-00000-of-00001.parquet": {
+      "num_bytes": 37162331,
+      "checksum": null
+    },
+    "hf://datasets/trl-lib/Capybara@e235e846458bff3398a88aed812347f7f0756520/data/test-00000-of-00001.parquet": {
+      "num_bytes": 482348,
+      "checksum": null
+    }
+  },
+  "download_size": 37644679,
+  "features": {
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "messages": [
+      {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "num_turns": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 110484978,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 71910710,
+      "num_examples": 15806,
+      "dataset_name": "capybara"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 929589,
+      "num_examples": 200,
+      "dataset_name": "capybara"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
