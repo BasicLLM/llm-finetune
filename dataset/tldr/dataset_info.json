@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "tldr",
+  "dataset_size": 201866473,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/trl-lib/tldr@21233da376667088e6eb1ce4ce19ed832c2935d3/data/train-00000-of-00001.parquet": {
+      "num_bytes": 110378163,
+      "checksum": null
+    },
+    "hf://datasets/trl-lib/tldr@21233da376667088e6eb1ce4ce19ed832c2935d3/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 6111474,
+      "checksum": null
+    },
+    "hf://datasets/trl-lib/tldr@21233da376667088e6eb1ce4ce19ed832c2935d3/data/test-00000-of-00001.parquet": {
+      "num_bytes": 6213361,
+      "checksum": null
+    }
+  },
+  "download_size": 122702998,
+  "features": {
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "completion": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 324569471,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 181611007,
+      "num_examples": 116722,
+      "dataset_name": "tldr"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 10037679,
+      "num_examples": 6447,
+      "dataset_name": "tldr"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 10217787,
+      "num_examples": 6553,
+      "dataset_name": "tldr"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
